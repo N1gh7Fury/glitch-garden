@@ -8,6 +8,8 @@ public class Attacker : MonoBehaviour {
     private float currentSpeed;
     private GameObject currentTarget;
     private Animator animator;
+    [Tooltip ("Average number of seconds between appereances")]
+    public float spawnRate;
 
 	// Use this for initialization
 	void Start () {
